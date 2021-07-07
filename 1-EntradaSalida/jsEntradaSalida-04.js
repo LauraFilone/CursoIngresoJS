@@ -4,6 +4,8 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
+	let nombre;
+	nombre = prompt ("Indique su nombre");
 	alert("ok");
 }
 
