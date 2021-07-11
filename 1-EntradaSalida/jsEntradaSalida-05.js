@@ -10,5 +10,8 @@ function mostrar()
 	edad = document.getElementById("txtIdEdad").value;
 
 	alert("Usted se llama "+ nombre + " y tiene " + edad + " años.");
+
+	// Es otra forma de hacerlo....
+	 //alert (´Usted se llama ${nombre} y tiene ${edad} años`);
 }
 
