@@ -33,5 +33,21 @@ function Circulo ()
 }
 function Materiales () 
 {
+    let largo;
+    let ancho;
+    let area;
+    let cemento;
+    let cal;
+    let materiales;
+
+    largo = parseInt(document.getElementById("txtIdLargo").value);
+    ancho = parseInt(document.getElementById("txtIdAncho").value);
+
+   area = largo * ancho;
+    cemento = area * 2;
+    cal = area * 3;
+
+    alert("Para una area de " + area + " metros2, necesito comprar " + cemento + " bolsas de cemento y " + cal + " bolsas de cal")
+
 	
 }
